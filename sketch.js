@@ -74,7 +74,7 @@ function Answer1Select() {
         document.getElementById("Answer3").style.display = "none";
         document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
         ScoreTotal.push(Score[i][j]);
-        document.getElementById("Rolling Score").innerHTML="Hey! Thanks a lot for taking our quiz - your final score is..."+ScoreTotal.reduce(getSum)+" out of 10";
+        document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
 
 
       }
@@ -90,7 +90,7 @@ function Answer1Select() {
     document.getElementById("Answer3").style.display = "none";
     document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
     ScoreTotal.push(Score[i][j]);
-    document.getElementById("Rolling Score").innerHTML="Hey! Thanks a lot for taking our quiz - your final score is..."+ScoreTotal.reduce(getSum)+" out of 10";
+    document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
   }
   else{
 //we don't bring "Next Question" back for the last answer, instead the Finish Quiz
@@ -103,7 +103,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
     document.getElementById("Answer3").style.display = "none";
     document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
     ScoreTotal.push(Score[i][j]);
-    document.getElementById("Rolling Score").innerHTML="Hey! Thanks a lot for taking our quiz - your final score is..."+ScoreTotal.reduce(getSum)+" out of 10";
+    document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
 
 
   }
@@ -119,7 +119,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
       document.getElementById("Answer2").style.display = "none";
       document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
       ScoreTotal.push(Score[i][j]);
-      document.getElementById("Rolling Score").innerHTML="Hey! Thanks a lot for taking our quiz - your final score is..."+ScoreTotal.reduce(getSum)+" out of 10";
+      document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
     }
     else{
   //we don't bring "Next Question" back for the last answer, instead the Finish Quiz
@@ -132,7 +132,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
       document.getElementById("Answer2").style.display = "none";
       document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
       ScoreTotal.push(Score[i][j]);
-      document.getElementById("Rolling Score").innerHTML="Hey! Thanks a lot for taking our quiz - your final score is..."+ScoreTotal.reduce(getSum)+" out of 10";
+      document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
 
 
     }
