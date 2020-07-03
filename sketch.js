@@ -142,43 +142,44 @@ document.getElementById("CurrentQuScore").style.display = "block";
 
 
 //Questions are set up in an "array", the square brackets with Q1, Q2 being the questions which we can amend each time.
-var Q1 = "Who won the 1990 world cup?";
-var Q2 = "Who scored the first goal in the 1986 World Cup Final?";
-var Q3 = "Who is the all time top goal scorer in World Cups?";
-var Q4 = "When was Pele's first world cup?";
-var Q5 = "Who did Argentina beat when Maradona did his famous 'hand of god' goal in 1986?";
-var Q6 = "Who missed a penalty for France in the dramatic 1986 shoot out against Brazil?";
-var Q7 = "What was the name of the German goalkeeper who assaulted Battiston in the 1982 world cup but was not booked?";
-var Q8 = "Who was sent off for Brazil in their 4 July match against USA in World Cup 1994?";
-var Q9 = "Which team did Belgium play twice in the 2018 world cup - neither game affecting their overall chances to win the world cup?";
-var Q10 = "Which world cup minnows team did Dimbi Tubilandu keep goal for, albeit briefly and without much success?";
+//I really want that the program picks up the questions from a container
+var Q1 = "Vraag 1?";
+var Q2 = "Vraag 2?";
+var Q3 = "Vraag 3?";
+var Q4 = "Vraag 4?";
+var Q5 = "Vraag 5?";
+var Q6 = "Vraag 6?";
+var Q7 = "Vraag 7?";
+var Q8 = "Vraag 8?";
+var Q9 = "Vraag 9?";
+var Q10 = "Vraag 10?";
 var Questions = [Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10];
 //In a very similar way, we will include our answers
 
 
-var A1 = ["Brazil", "West Germany", "Italy"];
-var A2 = ["Jose Luis Brown", "Maradona", "Brehme"];
-var A3 = ["Fontaine", "Klose", "Beckham"];
-var A4 = ["1958", "1954", "1962"];
-var A5 = ["Italy", "West Germany", "England"];
-var A6 = ["Tigana", "Fernandez", "Platini"];
-var A7 = ["Schumacher", "Illgner", "Maier"];
-var A8 = ["Leonardo", "Romario", "Bebeto"];
-var A9 = ["Brazil", "England", "Denmark"];
-var A10 = ["Honduras", "Zaire", "El Salvador"];
+var A1 = ["Optie 1", "Optie 2", "Optie 3"];
+var A2 = ["Optie 1", "Optie 2", "Optie 3"];
+var A3 = ["Optie 1", "Optie 2", "Optie 3"];
+var A4 = ["Optie 1", "Optie 2", "Optie 3"];
+var A5 = ["Optie 1", "Optie 2", "Optie 3"];
+var A6 = ["Optie 1", "Optie 2", "Optie 3"];
+var A7 = ["Optie 1", "Optie 2", "Optie 3"];
+var A8 = ["Optie 1", "Optie 2", "Optie 3"];
+var A9 = ["Optie 1", "Optie 2", "Optie 3"];
+var A10 = ["Optie 1", "Optie 2", "Optie 3"];
 var Answers = [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10];
 //...and solutions
 
-var S1 = "It was West Germany - they beat Argentina 1-0 in the final";
-var S2 = "Jose Luis Brown scored a header to make it 1-0 in the final - the final score was 3-2 to Argentina.";
-var S3 = "Miroslav Klose has the world cup record for goals scored with 16 goals in total";
-var S4 = "Pele's first world cup (aged 17) was in 1958 - which Brazil won!";
-var S5 = "England saw the hand of god as well as one of the best individual goals of all time to lose 2-1 to Argentina";
-var S6 = "Platini missed the 4th French penalty on his 31st Birthday - France went on to win the shootout 4-3";
-var S7 = "Schumacher was the guilty party and seemingly had little remorse for his actions";
-var S8 = "Leonardo elbowed a US player on the half-way line to get a straight red in USA 94";
-var S9 = "England played Belgium once in the group when they were both already through and again in the 3rd/4th place play-off.";
-var S10= "Poor Dimbi Tubilandu was Zaire's goalkeeper subbed on after 21 minutes when they were 3-0 down - sadly, the goals kept coming and Yugoslavia won 9-0.";
+var S1 = "Het goede antwoord is optie 2.";
+var S2 = "Het goede antwoord is optie 1.";
+var S3 = "Het goede antwoord is optie 2.";
+var S4 = "Het goede antwoord is optie 1.";
+var S5 = "Het goede antwoord is optie 3.";
+var S6 = "Het goede antwoord is optie 3.";
+var S7 = "Het goede antwoord is optie 1.";
+var S8 = "Het goede antwoord is optie 1.";
+var S9 = "Het goede antwoord is optie 2.";
+var S10= "Het goede antwoord is optie 2.";
 var Solutions = [S1,S2,S3,S4,S5,S6,S7,S8,S9,S10];
 //...and points scored for each answer - we will keep it to 1s and 0s but you can be creative!
 
