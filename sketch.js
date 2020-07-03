@@ -142,7 +142,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
 
 
 //Questions are set up in an "array", the square brackets with Q1, Q2 being the questions which we can amend each time.
-//I really want that the program picks up the questions from a container
+//I really want that the program picks up the questions random from a container
 var Q1 = "Vraag 1?";
 var Q2 = "Vraag 2?";
 var Q3 = "Vraag 3?";
@@ -156,7 +156,7 @@ var Q10 = "Vraag 10?";
 var Questions = [Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10];
 //In a very similar way, we will include our answers
 
-
+//I really want that the program picks up the answers from a container
 var A1 = ["Optie 1", "Optie 2", "Optie 3"];
 var A2 = ["Optie 1", "Optie 2", "Optie 3"];
 var A3 = ["Optie 1", "Optie 2", "Optie 3"];
@@ -169,7 +169,7 @@ var A9 = ["Optie 1", "Optie 2", "Optie 3"];
 var A10 = ["Optie 1", "Optie 2", "Optie 3"];
 var Answers = [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10];
 //...and solutions
-
+//I really want that the program picks up the right answers from a container
 var S1 = "Het goede antwoord is optie 2.";
 var S2 = "Het goede antwoord is optie 1.";
 var S3 = "Het goede antwoord is optie 2.";
