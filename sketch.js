@@ -59,7 +59,7 @@ function Answer1Select() {
   //this stops the user being able to select the correct answer multiple time to top up their score. We must then remember to enable it in the "NextQu" function.
   document.getElementById("Answer2").style.display = "none";
   document.getElementById("Answer3").style.display = "none";
-  document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
+  document.getElementById("CurrentQuScore").innerHTML="Je krijgt "+Score[i][j]+" punt voor deze vraag.";
   ScoreTotal.push(Score[i][j]);
   document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
       }
@@ -72,7 +72,7 @@ function Answer1Select() {
         //this stops the user being able to select the correct answer multiple time to top up their score. We must then remember to enable it in the "NextQu" function.
         document.getElementById("Answer2").style.display = "none";
         document.getElementById("Answer3").style.display = "none";
-        document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
+        document.getElementById("CurrentQuScore").innerHTML="Je krijgt "+Score[i][j]+" punt voor deze vraag.";
         ScoreTotal.push(Score[i][j]);
         document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
 
@@ -88,7 +88,7 @@ function Answer1Select() {
       document.getElementById("Answer2").disabled = true;
     document.getElementById("Answer1").style.display = "none";
     document.getElementById("Answer3").style.display = "none";
-    document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
+    document.getElementById("CurrentQuScore").innerHTML="Je krijgt "+Score[i][j]+" punt voor deze vraag.";
     ScoreTotal.push(Score[i][j]);
     document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
   }
@@ -101,7 +101,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
     //this stops the user being able to select the correct answer multiple time to top up their score. We must then remember to enable it in the "NextQu" function.
     document.getElementById("Answer1").style.display = "none";
     document.getElementById("Answer3").style.display = "none";
-    document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
+    document.getElementById("CurrentQuScore").innerHTML="Je krijgt "+Score[i][j]+" punt voor deze vraag.";
     ScoreTotal.push(Score[i][j]);
     document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
 
@@ -117,7 +117,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
       document.getElementById("Answer3").disabled = true;
       document.getElementById("Answer1").style.display = "none";
       document.getElementById("Answer2").style.display = "none";
-      document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
+      document.getElementById("CurrentQuScore").innerHTML="Je krijgt "+Score[i][j]+" punt voor deze vraag.";
       ScoreTotal.push(Score[i][j]);
       document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
     }
@@ -130,7 +130,7 @@ document.getElementById("CurrentQuScore").style.display = "block";
       //this stops the user being able to select the correct answer multiple time to top up their score. We must then remember to enable it in the "NextQu" function.
       document.getElementById("Answer1").style.display = "none";
       document.getElementById("Answer2").style.display = "none";
-      document.getElementById("CurrentQuScore").innerHTML="You scored "+Score[i][j]+" on this question";
+      document.getElementById("CurrentQuScore").innerHTML="Je krijgt "+Score[i][j]+" punt voor deze vraag.";
       ScoreTotal.push(Score[i][j]);
       document.getElementById("Rolling Score").innerHTML="Hey! Bedankt voor het gebruik van de kennisquiz schadevaringen. Je hebt "+ScoreTotal.reduce(getSum)+" van de 10 vragen goed beantwoord.";
 
